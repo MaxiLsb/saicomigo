@@ -1,0 +1,32 @@
+@import url(root.css);
+body{
+    background-color: var(--cor-fundo);
+    padding: 12px;
+    margin: 60px;
+}
+.titulo{
+    background-color: var(--cinza-escuro);
+    color: var(--cinza-claro);
+    border: 2px none;
+    border-radius: 10px;
+    text-align: left;
+}
+.infos{
+    padding: 12px;
+    margin: 5px;
+    color: var(--preto);
+}
+
+.negrito{
+    color: var(--vermelho);
+    text-decoration: underline;
+}
+.foto{
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    box-shadow: 0 0 1em var(--vermelho);
+    width: 100%;
+}

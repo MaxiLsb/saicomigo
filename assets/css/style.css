@@ -1,0 +1,49 @@
+@import url(root.css);
+body{
+    background-color: var(--cor-fundo);
+    padding: 12px;
+    margin: 60px;
+}
+.pergunta{
+    color: var(--preto);
+    background-color: var(--cinza-claro);
+    padding: 12px;
+    margin: 2px;
+    border: 2px none;
+    border-radius: 40px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.respostas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.botao{
+    text-align: center;
+    color: var(--cinza-escuro);
+    padding: 12px;
+    margin: 12px;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-claro);
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: var(--cinza-escuro);
+}
+
+a{
+    color: var(--cinza-escuro);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: var(--preto);
+}
